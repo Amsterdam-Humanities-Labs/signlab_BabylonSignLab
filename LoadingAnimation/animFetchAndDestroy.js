@@ -167,4 +167,4 @@ function removeAnims(scene, animHolder) {
     return true;
 }
 
-module.exports = { getAnims, keepOnlyAnimationGroup, removeAnims };
+if (typeof module !== 'undefined') module.exports = { getAnims, keepOnlyAnimationGroup, removeAnims }; // Node tests only
