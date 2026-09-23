@@ -257,4 +257,4 @@ function getMorphTargetIndex(morphTargetManager, targetName) {
 //         };
 //     }
 
-module.exports = { retargetAnimWithBlendshapes, getMorphTargetIndex };
+if (typeof module !== 'undefined') module.exports = { retargetAnimWithBlendshapes, getMorphTargetIndex }; // Node tests only

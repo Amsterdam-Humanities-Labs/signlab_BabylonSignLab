@@ -1,7 +1,7 @@
 async function signCollectLoader(thema, filter, limit=5) {
     try {
         console.log("Loading animations from SignCollect, thema:" + thema + " filter:" + filter + " limit: " + limit);
-        const response = await fetch(`https://leffe.science.uva.nl:8043/fetch_all.php?limit=${limit}&offset=0&handle=${filter}&thema=` + thema);
+        const response = await fetch(`/mocap/fetch_all.php?limit=${limit}&offset=0&handle=${filter}&thema=` + thema);
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
