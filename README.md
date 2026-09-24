@@ -136,4 +136,9 @@ Importing a new RPM avatar that uses our animations:
 ### Accessing null imported animation names? 
 [How to Access original target Name after it’s imported with null as target?](https://forum.babylonjs.com/t/issue-with-importanimationsasync-how-to-access-original-target-name-after-its-imported-with-null-as-target/55153) Not complete.
 
+## License and citation
 
+Apache License 2.0, copyright University of Amsterdam: see [LICENSE](LICENSE) and
+[NOTICE](NOTICE). You may use it, also commercially, as long as you credit
+Gomer Otterspeer / University of Amsterdam as the source. To cite it, use
+[CITATION.cff](CITATION.cff) (the *Cite this repository* button on GitHub) or the DOI [10.21942/uva.33980281](https://doi.org/10.21942/uva.33980281).
